@@ -1,22 +1,26 @@
 {
     "name": "employee-msys",
     "version": "1.0.0",
-    "description": "",
+    "description": "mployee Tracker",
     "main": "employee.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node employee.js",
-        "watch": "nodemon employee.js"
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lcerdeira/employee-msys.git"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "express": "^4.16.4",
-        "inquirer": "^6.3.1",
-        "mysql": "^2.16.0",
-        "mysql2": "^2.1.0"
+    "bugs": {
+        "url": "https://github.com/lcerdeira/employee-msys/issues"
     },
-    "devDependencies": {
-        "nodemon": "^2.0.4"
+    "homepage": "https://github.com/lcerdeira/employee-msys#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "dotenv": "^8.2.0",
+        "inquirer": "^7.1.0",
+        "mysql": "^2.18.1",
+        "util": "^0.12.3"
     }
 }

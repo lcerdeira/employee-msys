@@ -35,11 +35,11 @@
   ## Installation
 
   git clone the repository
-  run ```npm install``` to install the required packages. 
+  run ```npm install``` to install the required packages.
 
   ## Usage
 
-  ```npm start``` to Run the App
+  ```node employee.js``` to Run the App
 
   Follow the prompts to add, view or modify the employee database.
 
