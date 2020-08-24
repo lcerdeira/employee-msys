@@ -1,4 +1,4 @@
-USE employeeTrackerDB;
+USE empdb;
 
 /* Insert 3 Rows into your new table */
 INSERT INTO Department (name)
@@ -20,7 +20,7 @@ VALUES ("Jon", "Christie", 1, 3),
 ("Macy", "Molina", 2, null),
 ("Will", "VanHook", 5, null);
 
-SELECT * FROM employeeTrackerDB.Employee;
+SELECT * FROM empdb.Employee;
 
 DELETE FROM Employee WHERE Employee.id = 1;
 DELETE FROM Employee WHERE Employee.id = 2;
