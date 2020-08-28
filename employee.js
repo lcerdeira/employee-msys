@@ -152,7 +152,7 @@ async function addRole() {
         }, ]);
     let query = connection.query(
         "INSERT INTO Role SET ?", {
-            name: roleName.newRole
+            title: roleName.newRole
         },
         await
         function(err, res) {
